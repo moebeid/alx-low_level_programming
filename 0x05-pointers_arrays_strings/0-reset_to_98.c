@@ -1,9 +1,11 @@
 /**
- * rest to 98
+ * reset_to_98 - changes passed integer pointer's dereferenced value
+ * to 98
  *
- * Return: 0 (success)
+ * @n: a pointer to an integer
+ *
+ * Return: 0
  */
-
 void reset_to_98(int *n)
 {
 	*n = 98;
